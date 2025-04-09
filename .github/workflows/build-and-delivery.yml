@@ -5,7 +5,9 @@ on:
     workflows: ["Test Python App"]
     types:
       - completed
-
+  push:
+    branches:
+      - main 
 
 jobs:
   cd:
